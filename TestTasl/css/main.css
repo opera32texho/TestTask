@@ -1,0 +1,15 @@
+.task_manager{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}   
+.row{
+    justify-content: center;
+}
+.modal_position{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
