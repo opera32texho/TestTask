@@ -28,38 +28,36 @@
 
                     <div class="list-group custom-control" id="list-tab" role="tablist">
 
-                        <a class="list-group-item list-group-item-action active " id="list-home-list" data-toggle="list"
-                            href="#list-home" role="tab" aria-controls="home">Home
 
-                        </a>
-                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
-                            href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
-                            href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
-                            href="#list-settings" role="tab" aria-controls="settings">Settings</a>
                     </div>
                 </div>
 
-                <div class="col-8">
+                <div class="col-6">
                     <h1>
                         Describe
                     </h1>
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
-                            aria-labelledby="list-home-list">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Voluptatem, doloribus!</div>
-                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
-                            aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Dolorum, nihil.</div>
-                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
-                            aria-labelledby="list-messages-list">Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Dignissimos pariatur harum aperiam!</div>
-                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
-                            aria-labelledby="list-settings-list">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Facere eveniet maxime laboriosam nisi reiciendis dignissimos.</div>
+
                     </div>
                 </div>
+                <div class="col-2" id="checkbox-add">
+                    <h1>
+                        Check
+                    </h1>
+                    <div id="holder">
+                        <form class="was-validated">
+                            <div class="custom-control custom-checkbox mb-3">
+                                <input type="checkbox" class="custom-control-input" id="customControlValidation1"
+                                    required>
+                                <label class="custom-control-label" for="customControlValidation1"></label>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+
                 <div class="col modal_position">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
                         data-whatever="@getbootstrap">Add Task</button>
@@ -67,7 +65,7 @@
                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
-                               
+
                                 <div class="modal-body">
                                     <form>
                                         <div class="form-group">
@@ -82,12 +80,14 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button  type="button" class="btn btn-primary" id="submit-modal-window">Submit</button>
+                                    <button type="button" class="btn btn-primary"
+                                        id="submit-modal-window">Submit</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
 
 
 

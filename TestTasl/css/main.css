@@ -1,4 +1,6 @@
 .task_manager{
+    border: 1px solid;
+    border-radius: 14px;
     margin-top: 5%;
     display: flex;
     width: 100%;
