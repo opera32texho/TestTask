@@ -16,23 +16,23 @@
     margin-top: 5%;
 }
 .change-button{
-    padding: 0.75rem 1.25rem;
-
-    display: inline-block;
+    margin-top: 8px;
 }
 .changeedit{
+    padding-left: 2rem;
     display: inline-block;
 }
 .custom-control-label::after{
     cursor: pointer;
     width: 2rem;
     height: 2rem;
-    top: -0.16rem;
+    top: 0.1rem;
     left: 0.3rem;
 }
 .custom-control-label::before{
     width: 2rem;
     height: 2rem;
-    top: -0.16rem;
+    top: 0.1rem;
     left: 0.3rem;
 }
+
