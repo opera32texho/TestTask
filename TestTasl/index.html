@@ -45,13 +45,14 @@
                         Edit/Check
                     </h3>
                     <div id="holder" class="was-validated">
-                        
+
                     </div>
 
                 </div>
 
 
                 <div class="col modal_position">
+
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
                         data-whatever="@getbootstrap">Add Task</button>
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
@@ -80,9 +81,25 @@
                         </div>
                     </div>
                 </div>
-                
-                
-                
+
+
+
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Change your task</h5>
+                            </div>
+                            <div class="modal-body">
+                                <input type="text" class="task-name" />
+                            </div>
+                            <div class="modal-footer"><button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">Close</button><button type="button"
+                                    class="btn btn-primary " id="save-task-change">Save changes</button></div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -100,7 +117,7 @@
     </script>
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
-    
+
 </body>
 
 </html>
